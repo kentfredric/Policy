@@ -37,7 +37,7 @@ stopping an individual seeing these standards, and adopting them as their own an
 In fact, encouraging the adoption of such standards, especially in regards to C<Toolchain> and C<P5P>
 standards is highly encouraged.
 
-=head1 SUB NAMESPACES 
+=head1 SUB NAMESPACES
 
 At this time, there are three primary categories:
 
@@ -85,7 +85,7 @@ Where:
 
 =item * B<C<E<lt>CategoryE<gt>>> is one of C<Org|Project|Author>
 
-=item * B<C<E<lt>NameE<gt>>> is your organisational identifier as discussed in L<SUB NAMESPACES|/SUB NAMESPACES> 
+=item * B<C<E<lt>NameE<gt>>> is your organisational identifier as discussed in L<SUB NAMESPACES|/SUB NAMESPACES>
 
 =item * B<C<E<lt>PolicyIdE<gt>>> is zero-padded 4-digit number such as C<0001>
 
@@ -98,7 +98,7 @@ that makes it clear the order in which the policies were added, to make it obvio
 added more recently.
 
 The namespace itself B<< C<< Policy::E<lt>CategoryE<gt>::E<lt>NameE<gt> >> >> should serve as an index to the policies
-beneath it, grouping policies together by topic, severity, importance, deprecation status, etc, each with a short 
+beneath it, grouping policies together by topic, severity, importance, deprecation status, etc, each with a short
 blurb describing what will be found within.
 
 Granted, such indexes are not entirely required, given the existence of MetaCPAN and friends, which will generate
