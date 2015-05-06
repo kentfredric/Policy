@@ -1,5 +1,5 @@
 {
-   "abstract" : "Policies, Standards and Guidelines for CPAN Modules",
+   "abstract" : "Policies, Standards and Guidelines for the world of Perl",
    "author" : [
       "Kent Fredric <kentnl@cpan.org>"
    ],
@@ -801,6 +801,9 @@
          "version" : "5.036"
       }
    },
-   "x_authority" : "cpan:KENTNL"
+   "x_authority" : "cpan:KENTNL",
+   "x_contributors" : [
+      "Peter Rabbitson <ribasushi@cpan.org>"
+   ]
 }
 
