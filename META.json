@@ -20,7 +20,7 @@
          },
          "requires" : {
             "ExtUtils::MakeMaker" : "0",
-            "perl" : "5.006"
+            "perl" : "5.004"
          }
       },
       "develop" : {
@@ -111,7 +111,12 @@
          }
       }
    },
-   "provides" : {},
+   "provides" : {
+      "Policy" : {
+         "file" : "lib/Policy.pm",
+         "version" : "0.000000"
+      }
+   },
    "release_status" : "stable",
    "version" : "0.000000",
    "x_BuiltWith" : {
