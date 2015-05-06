@@ -1,5 +1,5 @@
 {
-   "abstract" : "Policies, Standards and Guidelines for CPAN Modules",
+   "abstract" : "Policies, Standards and Guidelines for the world of Perl",
    "author" : [
       "Kent Fredric <kentnl@cpan.org>"
    ],
@@ -118,6 +118,17 @@
       }
    },
    "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/kentfredric/Policy/issues"
+      },
+      "homepage" : "https://github.com/kentfredric/Policy",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/kentfredric/Policy.git",
+         "web" : "https://github.com/kentfredric/Policy"
+      }
+   },
    "version" : "0.001000",
    "x_BuiltWith" : {
       "external_file" : "misc/built_with.json"
@@ -785,6 +796,9 @@
          "version" : "5.036"
       }
    },
-   "x_authority" : "cpan:KENTNL"
+   "x_authority" : "cpan:KENTNL",
+   "x_contributors" : [
+      "Peter Rabbitson <ribasushi@cpan.org>"
+   ]
 }
 
