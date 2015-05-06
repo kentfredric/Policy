@@ -66,7 +66,7 @@ Examples:
 
 These entries should be strictly under the control of the named PAUSE identifier,
 and people injecting under other peoples PAUSE identifier will have PAUSE admins gladly
-taking control of things under that name that the individual did not authorise.
+taking control of things under that name that the individual did not authorize.
 
 Examples:
 
