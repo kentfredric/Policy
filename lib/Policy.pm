@@ -1,4 +1,4 @@
-use 5.006; # our
+use 5.006;    # our
 use strict;
 use warnings;
 
@@ -32,7 +32,7 @@ C<Policy> is a namespace dedicated to documenting the human level of how code sh
 detailing current best practices and recommendations for scopes as narrow as individual authors,
 or guidelines as broad as all of CPAN.
 
-Existence of these policies are not necessarily gospel, but merely a canonicalisation of human
+Existence of these policies are not necessarily gospel, but merely a canonicalization of human
 knowledge in a more consumable form that doesn't require active discussion.
 
 Members of a group may wish to force these standards on code they control, but there is nothing
