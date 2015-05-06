@@ -89,7 +89,7 @@ Examples:
 
 =head1 AUTHORSHIP OF NAMESPACES
 
-The exact recommended layout of any policy namespace, should in itself (at some stage) have a policy 
+The exact recommended layout of any policy namespace, should in itself (at some stage) have a policy
 encouraging a uniform layout. However, in the interim, my personal suggestion is as follows:
 
     Policy::<Category>::<Name>::<PolicyId>_<PolicyWordToken>
@@ -104,8 +104,7 @@ Where:
 
 =item * B<C<E<lt>PolicyIdE<gt>>> is zero-padded 4-digit number such as C<0001>
 
-=item * B<C<E<lt>PolicyWordTokenE<gt>>> is a simple word expression intended to give some sort of identification, for example: 
-C<SimpleVersions>
+=item * B<C<E<lt>PolicyWordTokenE<gt>>> is a simple word expression intended to give some sort of identification, for example: C<SimpleVersions>
 
 =back
 
