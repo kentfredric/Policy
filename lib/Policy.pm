@@ -71,7 +71,7 @@ Examples:
 Projects typically can be distinguished from Organizations in that: Projects tend to be narrow scoped
 to a very specific domain, whereas Organizations are broad having opinions that can apply to almost anything.
 
-Projects often gravitate around a particular namespace, such as the examples given, wheras organizations
+Projects often gravitate around a particular namespace, such as the examples given, whereas organizations
 are likely to be dabbling in a plethora of seemingly unrelated concerns.
 
 =item * L<< C<Policy::Author>|Policy::Author >> - Policies dictated by specific authors
