@@ -104,7 +104,7 @@
          "requires" : {
             "ExtUtils::MakeMaker" : "0",
             "File::Spec" : "0",
-            "Test::More" : "0",
+            "Test::More" : "0.89",
             "perl" : "5.006",
             "strict" : "0",
             "warnings" : "0"
@@ -305,7 +305,9 @@
             "class" : "Dist::Zilla::Plugin::Test::Compile::PerFile",
             "config" : {
                "Dist::Zilla::Plugin::Test::Compile::PerFile" : {
-                  "file" : [],
+                  "file" : [
+                     "lib/Policy.pm"
+                  ],
                   "path_translator" : "base64_filter",
                   "prefix" : "t/00-compile",
                   "skip" : [],
