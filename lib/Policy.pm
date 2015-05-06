@@ -1,7 +1,10 @@
 package Policy;
+
 # ABSTRACT: Policies, Standards and Guidelines for CPAN Modules
 
 our $VERSION = '0.001000';
+
+our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
 
 1;
 
