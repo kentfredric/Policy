@@ -7,8 +7,6 @@ build_requires:
   File::Spec: '0'
   Test::More: '0.89'
   perl: '5.006'
-  strict: '0'
-  warnings: '0'
 configure_requires:
   ExtUtils::MakeMaker: '0'
   perl: '5.006'
@@ -25,6 +23,8 @@ provides:
     version: '0.001000'
 requires:
   perl: '5.006'
+  strict: '0'
+  warnings: '0'
 version: '0.001000'
 x_BuiltWith:
   external_file: misc/built_with.json

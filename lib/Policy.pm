@@ -1,3 +1,7 @@
+use 5.006; # our
+use strict;
+use warnings;
+
 package Policy;
 
 # ABSTRACT: Policies, Standards and Guidelines for CPAN Modules

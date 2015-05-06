@@ -92,7 +92,9 @@
       },
       "runtime" : {
          "requires" : {
-            "perl" : "5.006"
+            "perl" : "5.006",
+            "strict" : "0",
+            "warnings" : "0"
          }
       },
       "test" : {
@@ -105,9 +107,7 @@
             "ExtUtils::MakeMaker" : "0",
             "File::Spec" : "0",
             "Test::More" : "0.89",
-            "perl" : "5.006",
-            "strict" : "0",
-            "warnings" : "0"
+            "perl" : "5.006"
          }
       }
    },
