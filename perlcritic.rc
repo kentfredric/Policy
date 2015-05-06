@@ -355,7 +355,7 @@ equivalent_modules = Moose Moo
 equivalent_modules = Moose Moo
 
 [Tics::ProhibitLongLines]
-base_max = 130
+base_max = 100
 
 [Tics::ProhibitManyArrows]
 

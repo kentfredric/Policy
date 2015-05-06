@@ -18,12 +18,15 @@ use Path::Tiny qw(path);
 my $bundle = create_bundle('Example::Author::KENTNL');
 $bundle->configure;
 
-my @stopwords = (qw(
-   CPAN NAMESPACE namespace canonicalization NAMESPACES MetaCPAN
-));
+my @stopwords = (
+  qw(
+    CPAN NAMESPACE namespace canonicalization NAMESPACES MetaCPAN
+    )
+);
 for my $wordlist (@stopwords) {
   $bundle->add_or_append_policy_field( 'Documentation::PodSpelling' => ( 'stop_words' => $wordlist ) );
 }
+$bundle->add_or_replace_policy_field( 'Tics::ProhibitLongLines' => ( base_max => 100 ) );
 
 #$bundle->add_or_append_policy_field(
 #  'Subroutines::ProhibitCallsToUndeclaredSubs' => ( 'exempt_subs' => 'String::Formatter::str_rf' ), );
