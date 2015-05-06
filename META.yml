@@ -11,7 +11,7 @@ build_requires:
   warnings: '0'
 configure_requires:
   ExtUtils::MakeMaker: '0'
-  perl: '5.004'
+  perl: '5.006'
 dynamic_config: 0
 generated_by: 'Dist::Zilla version 5.036, CPAN::Meta::Converter version 2.150001'
 license: perl
@@ -22,10 +22,10 @@ name: Policy
 provides:
   Policy:
     file: lib/Policy.pm
-    version: '0.000000'
+    version: '0.001000'
 requires:
   perl: '5.006'
-version: '0.000000'
+version: '0.001000'
 x_BuiltWith:
   external_file: misc/built_with.json
 x_Dist_Zilla:
@@ -378,7 +378,7 @@ x_Dist_Zilla:
         Dist::Zilla::Plugin::Git::Tag:
           branch: ~
           signed: 0
-          tag: 0.000000-source
+          tag: 0.001000-source
           tag_format: '%v-source'
           tag_message: v%v
           time_zone: local
@@ -432,7 +432,7 @@ x_Dist_Zilla:
         Dist::Zilla::Plugin::Git::Tag:
           branch: releases
           signed: 0
-          tag: '0.000000'
+          tag: '0.001000'
           tag_format: '%v'
           tag_message: v%v
           time_zone: local

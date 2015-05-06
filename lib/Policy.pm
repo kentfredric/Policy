@@ -1,7 +1,7 @@
 package Policy;
 # ABSTRACT: Policies, Standards and Guidelines for CPAN Modules
 
-$Policy::VERSION = 0.001000;
+our $VERSION = '0.001000';
 
 1;
 
@@ -17,7 +17,7 @@ Policy - Policies, Standards and Guidelines for CPAN Modules
 
 =head1 VERSION
 
-version 0.000000
+version 0.001000
 
 =head1 ABOUT THIS NAMESPACE
 
