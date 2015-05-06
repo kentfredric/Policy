@@ -7,7 +7,7 @@ use 5.006;
 use ExtUtils::MakeMaker;
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "Policies, Standards and Guidelines for the world of Perl",
+  "ABSTRACT" => "Policies, Standards and Guidelines for CPAN Modules",
   "AUTHOR" => "Kent Fredric <kentnl\@cpan.org>",
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => 0

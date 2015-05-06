@@ -1,5 +1,5 @@
 {
-   "abstract" : "Policies, Standards and Guidelines for the world of Perl",
+   "abstract" : "Policies, Standards and Guidelines for CPAN Modules",
    "author" : [
       "Kent Fredric <kentnl@cpan.org>"
    ],
@@ -600,11 +600,6 @@
          },
          {
             "class" : "Dist::Zilla::Plugin::Git::NextRelease",
-            "config" : {
-               "Dist::Zilla::Plugin::Git::NextRelease" : {
-                  "default_branch" : "master"
-               }
-            },
             "name" : "@Author::KENTNL/Git::NextRelease",
             "version" : "0.004000"
          },
@@ -801,9 +796,6 @@
          "version" : "5.036"
       }
    },
-   "x_authority" : "cpan:KENTNL",
-   "x_contributors" : [
-      "Peter Rabbitson <ribasushi@cpan.org>"
-   ]
+   "x_authority" : "cpan:KENTNL"
 }
 
