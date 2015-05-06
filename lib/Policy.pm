@@ -89,7 +89,7 @@ Examples:
 
 =head1 AUTHORSHIP OF NAMESPACES
 
-The exact recommended layout of any policy namespace, should in itself (at some stage) have a policy
+The exact recommended layout of any policy sub-namespace, should in itself (at some stage) have a policy
 encouraging a uniform layout. However, in the interim, my personal suggestion is as follows:
 
     Policy::<Category>::<Name>::<PolicyId>_<PolicyWordToken>
