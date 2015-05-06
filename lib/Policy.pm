@@ -28,8 +28,8 @@ version 0.001000
 
 =head1 ABOUT THIS NAMESPACE
 
-C<Policy> is a namespace dedicated to documenting various current best practices and recommendations for scopes as narrow as
-individual authors, or guidelines as broad as all of CPAN.
+C<Policy> is a namespace dedicated to documenting various current best practices and recommendations
+for scopes as narrow as individual authors, or guidelines as broad as all of CPAN.
 
 Existence of these policies are not necessarily gospel, but merely a canonicalization of human
 knowledge in a more consumable form that doesn't require active discussion.
