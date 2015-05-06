@@ -1,6 +1,7 @@
 # PODNAME: Policy
 # ABSTRACT: Policies, Standards and Guidelines for CPAN Modules
-1
+our $VERSION = 0.001000;
+=pod
 =head1 ABOUT THIS NAMESPACE
 
 C<Policy> is a namespace dedicated to documenting the human level of how code should be written,
