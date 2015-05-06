@@ -47,7 +47,7 @@ At this time, there are three primary categories:
 
 =over 4
 
-=item * L<< C<Policy::Org>|Policy::Org >> - Policies under the authority of specific organisations
+=item * L<< C<Policy::Org>|Policy::Org >> - Policies under the authority of specific organizations
 
 Examples:
 
@@ -89,7 +89,7 @@ Where:
 
 =item * B<C<E<lt>CategoryE<gt>>> is one of C<Org|Project|Author>
 
-=item * B<C<E<lt>NameE<gt>>> is your organisational identifier as discussed in L<SUB NAMESPACES|/SUB NAMESPACES>
+=item * B<C<E<lt>NameE<gt>>> is your organizational identifier as discussed in L<SUB NAMESPACES|/SUB NAMESPACES>
 
 =item * B<C<E<lt>PolicyIdE<gt>>> is zero-padded 4-digit number such as C<0001>
 
