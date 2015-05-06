@@ -56,9 +56,9 @@ Examples:
     Policy::Org::ShadowCat
     Policy::Org::Debian
 
-B<NOTE:> There may be special cases for very high priority organisations within the CPAN ecosystem
+B<NOTE:> There may be special cases for very high priority organizations within the CPAN ecosystem
 such that the need for an C<Org::> prefix is optional. Both C<P5P> and C<Toolchain> are prime candidates
-for a priority organisation. However, the second of those two are unlikely to be classes as high priority
+for a priority organization. However, the second of those two are unlikely to be classes as high priority
 enough to warrant that naming.
 
 =item * L<< C<Policy::Project>|Policy::Project >> - Policies dictated by specific projects
@@ -71,7 +71,7 @@ Examples:
 Projects typically can be distinguished from Organizations in that: Projects tend to be narrow scoped
 to a very specific domain, whereas Organizations are broad having opinions that can apply to almost anything.
 
-Projects often gravitate around a peticular namespace, such as the examples given, wheras organizations
+Projects often gravitate around a particular namespace, such as the examples given, wheras organizations
 are likely to be dabbling in a plethora of seemingly unrelated concerns.
 
 =item * L<< C<Policy::Author>|Policy::Author >> - Policies dictated by specific authors
